@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mahla Faridani</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="calculator">
+    <div id="calculatorLCD">
+        <div id="calculatorHistory"></div>
+        <div id="calculatorCurrent">
+            <input type="number" id="calculatorCurrentShowNumber"/>
+            <div id="calculatorCurrentShowAction"></div>
+
+            <button id="calculatorEqual">=</button>
+        </div>
+    </div>
+    <div id="calculatorBtns">
+        <div id="calculatorNums">
+
+            <button id="calculatorNum7">7</button>
+            <button id="calculatorNum8">8</button>
+            <button id="calculatorNum9">9</button>
+            <button id="calculatorNum4">4</button>
+            <button id="calculatorNum5">5</button>
+            <button id="calculatorNum6">6</button>
+            <button id="calculatorNum1">1</button>
+            <button id="calculatorNum2">2</button>
+            <button id="calculatorNum3">3</button>
+            <button id="calculatorNum0">0</button>
+            <button id="calculatorClear" class="calculator-clear" onclick="ClearAll(false)">C</button>
+            <button id="calculatorClearAll" class="calculator-clear" onclick="ClearAll(true)">CC</button>
+
+        </div>
+
+        <div id="calculatorOperation">
+            <button id="calculatorAdd">+</button>
+            <button id="calculatorMinus">-</button>
+            <button id="calculatorDivide">/</button>
+            <button id="calculatorMultiple">*</button>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/calculator.js"></script>
+</body>
+</html>
