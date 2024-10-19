@@ -16,16 +16,18 @@
     padding: 10px;
 }
 
-#calculatorLCD {
+#LCD {
     width: 90%;
     height: 190px;
     display: flex;
     flex-direction: column;
     margin: 10px auto;
-
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
 }
 
-#calculatorHistory {
+#history {
     margin: 5px auto;
     width: 100%;
     height: 110px;
@@ -34,7 +36,7 @@
 
 }
 
-#calculatorCurrent {
+#current {
     width: 100%;
     height: 70px;
     display: flex;
@@ -44,13 +46,13 @@
     flex-direction: row-reverse;
 }
 
-#calculatorCurrentShowNumber {
+#show-number {
     width: 70%;
     height: 70px;
     background-color: var(--bg-LCD);
 }
 
-#calculatorCurrentShowAction {
+#show-action {
     width: 30%;
     height: 70px;
     background-color: var(--bg-LCD);
@@ -58,13 +60,13 @@
 }
 
 
-#calculatorEqual {
+#equal {
     width: 50px;
     height: 100%;
     background-color: var(--bg-equal);
 }
 
-#calculatorBtns {
+#btns {
     width: 100%;
     height: 100%;
     display: flex;
@@ -73,13 +75,13 @@
     align-items: flex-start;
 }
 
-#calculatorOperation {
+#operation {
     display: flex;
     flex-direction: column;
     width: 20%;
 }
 
-#calculatorOperation button {
+#operation button {
     width: 50px;
     height: 50px;
     margin: 10px 15px;
@@ -87,13 +89,13 @@
 
 }
 
-#calculatorNums {
+#nums {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
 }
 
-#calculatorNums button {
+#nums button {
     display: block;
     width: 50px;
     height: 50px;
