@@ -25,6 +25,7 @@
     line-height: 80px;
     text-align: center;
     font-size: 24px;
+
 }
 
 #history {
@@ -33,6 +34,7 @@
     height: 110px;
     background-color: var(--bg-LCD);
     border-radius: 8px;
+    overflow-y: scroll;
 
 }
 
